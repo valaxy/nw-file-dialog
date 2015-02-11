@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        title Test
+        link(rel="stylesheet" href="test.css")
+    body
+        button(class="openFile") open file dialog
+        button(class="openFile2") open file dialog with selecting mutiply files
+        button(class="openFile3") open file dialog with a file type
+        button(class="openFile4") open file dialog with default working dir
+        button(class="openDir") open directory dialog
+        button(class="openSaveAs") open save as dialog
+        button(class="openSaveAs2") open save as dialog with a file type
+        button(class="openSaveAs3") open save as dialog with a default file
+        button(class="openSaveAs4") open save as dialog with a default working dir
+
+
+        // startup
+        script(src="../bower_components/requirejs/require.js")
+        script.
+            require.config({
+                baseUrl: '../',
+                paths: {
+                    jquery: 'bower_components/jquery/dist/jquery.min',
+                    eventEmitter: 'bower_components/eventEmitter/EventEmitter.min'
+                }
+            })
+            require(['test/test'], function (test) {
+                test.init()
+            })

@@ -1,0 +1,22 @@
+{
+  "name": "nw-select-file-dialog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/valaxy/nw-select-file-dialog",
+  "authors": [
+    "valaxy <valaxy.tian@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.16"
+  }
+}

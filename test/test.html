@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Test</title><link rel="stylesheet" href="test.css"></head><body><button class="openFile">open file dialog</button><button class="openFile2">open file dialog with selecting mutiply files</button><button class="openFile3">open file dialog with a file type</button><button class="openFile4">open file dialog with default working dir</button><button class="openDir">open directory dialog</button><button class="openSaveAs">open save as dialog</button><button class="openSaveAs2">open save as dialog with a file type</button><button class="openSaveAs3">open save as dialog with a default file</button><button class="openSaveAs4">open save as dialog with a default working dir</button><!-- startup--><script src="../bower_components/requirejs/require.js"></script><script>require.config({
+    baseUrl: '../',
+    paths: {
+        jquery: 'bower_components/jquery/dist/jquery.min',
+        eventEmitter: 'bower_components/eventEmitter/EventEmitter.min'
+    }
+})
+require(['test/test'], function (test) {
+    test.init()
+})</script></body></html>
