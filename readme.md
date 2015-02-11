@@ -7,7 +7,7 @@
 
 # Reference
 - [node-webkit File-dialogs](https://github.com/nwjs/nw.js/wiki/File-dialogs)
-- [A API description](https://github.com/DWand/nw-fileDialog)
+- [A API description](https://github.com/DWand/nw-fileDialog) I referred This definition of API
 - [How to detect when cancel is clicked on file input?]
   (stackoverflow.com/questions/4628544/how-to-detect-when-cancel-is-clicked-on-file-input)
-  There is no good way to detect cancel event but use a timer
+  There is no good way to detect cancel event

@@ -1,7 +1,7 @@
 {
-  "name": "nw-select-file-dialog",
+  "name": "nw-file-dialog",
   "version": "0.0.0",
-  "homepage": "https://github.com/valaxy/nw-select-file-dialog",
+  "homepage": "https://github.com/valaxy/nw-file-dialog",
   "authors": [
     "valaxy <valaxy.tian@gmail.com>"
   ],
